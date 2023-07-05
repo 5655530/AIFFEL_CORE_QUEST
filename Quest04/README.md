@@ -23,7 +23,6 @@
 2. 코드의 작동 방식에 대한 개선 방법을 주석으로 기록합니다.
 3. 참고한 링크 및 ChatGPT 프롬프트 명령어가 있다면 주석으로 남겨주세요.
 ```python
-# 사칙 연산 계산기
 import time #sleep함수 이용하기 위해 import
 
 def fish_compre(fish_list) : #생선리스트 컴프리헨션으로 출력하는 함수 생성
@@ -97,7 +96,7 @@ for result in gen_result:  # 'gen_result'를 사용하여 결과 출력
 
 이제 간결하게 작성된 코드를 확인해 보세요.
 
-```
+```python
 import time
 
 fish_list = [
