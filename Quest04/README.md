@@ -23,22 +23,6 @@
 3. 참고한 링크 및 ChatGPT 프롬프트 명령어가 있다면 주석으로 남겨주세요.
 ```python
 # 사칙 연산 계산기
-class calculator:
-    # 예) init의 역할과 각 매서드의 의미를 서술
-    def __init__(self, first, second):
-        self.first = first
-        self.second = second
-    
-    # 예) 덧셈과 연산 작동 방식에 대한 서술
-    def add(self):
-        result = self.first + self.second
-        return result
-
-a = float(input('첫번째 값을 입력하세요.')) 
-b = float(input('두번째 값을 입력하세요.')) 
-c = calculator(a, b)
-print('덧셈', c.add()) 
-```
 import time #sleep함수 이용하기 위해 import
 
 def fish_compre(fish_list) : #생선리스트 컴프리헨션으로 출력하는 함수 생성
@@ -65,6 +49,8 @@ gen_result =fish_gen(fish_list) #fish_gen함수 호출
 for result in compre_result : #생선 리스트 제너레이터로 출력
     print(result)
     time.sleep(2) #2초 간격으로 출력
+```
+
 
 # 참고 링크 및 코드 개선
 ```python
