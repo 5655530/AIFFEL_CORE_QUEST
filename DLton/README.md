@@ -24,4 +24,4 @@ Greedy Soup 알고리즘을 이용해 ResNet50 모델의 성능을 향상시키�
 
 cifar_params.CSV: Greedy Soup 알고리즘을 적용하기 위해 훈련시킨 모델들의 하이퍼파라미터, 모델 경로, 테스트 점수를 저장한 CSV파일입니다.
 
-
+cifar: Greedy Soup 알고리즘을 적용하기 위해 훈련시킨 모델들을 h5의 형태로 저장한 폴더입니다. https://drive.google.com/drive/folders/1Co9XFjFkQlCUDGXeCSPqqBoe5OJzBd7T
